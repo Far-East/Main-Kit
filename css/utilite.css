@@ -1,0 +1,218 @@
+@charset "UTF-8";
+/*!
+ * Вспомогательные классы.
+ * Отступы, выравнивание, и прочее.
+ */
+/*Маржины*/
+.mt-0 {
+  margin-top: 0; }
+
+.mt-10 {
+  margin-top: 0.625rem;
+  /*10px*/ }
+
+.mt-15 {
+  margin-top: 0.9375rem;
+  /*15px*/ }
+
+.mt-20 {
+  margin-top: 1.25rem;
+  /*20px*/ }
+
+.mt-30 {
+  margin-top: 1.875rem;
+  /*30px*/ }
+
+.mt-40 {
+  margin-top: 2.5rem;
+  /*40px*/ }
+
+.mt-50 {
+  margin-top: 3.125rem;
+  /*50px*/ }
+
+.mb-0 {
+  margin-bottom: 0; }
+
+.mb-10 {
+  margin-bottom: 0.625rem;
+  /*10px*/ }
+
+.mb-15 {
+  margin-bottom: 0.9375rem;
+  /*15px*/ }
+
+.mb-20 {
+  margin-bottom: 1.25rem;
+  /*20px*/ }
+
+.mb-30 {
+  margin-bottom: 1.875rem;
+  /*30px*/ }
+
+.mb-40 {
+  margin-bottom: 2.5rem;
+  /*40px*/ }
+
+.mb-50 {
+  margin-bottom: 3.125rem;
+  /*50px*/ }
+
+/*Паддинги*/
+.pt-0 {
+  padding-top: 0; }
+
+.pt-10 {
+  padding-top: 0.625rem;
+  /*10px*/ }
+
+.pt-15 {
+  padding-top: 0.9375rem;
+  /*15px*/ }
+
+.pt-20 {
+  padding-top: 1.25rem;
+  /*20px*/ }
+
+.pt-30 {
+  padding-top: 1.875rem;
+  /*30px*/ }
+
+.pt-40 {
+  padding-top: 2.5rem;
+  /*40px*/ }
+
+.pt-50 {
+  padding-top: 3.125rem;
+  /*50px*/ }
+
+.pb-0 {
+  padding-bottom: 0; }
+
+.pb-10 {
+  padding-bottom: 0.625rem;
+  /*10px*/ }
+
+.pb-15 {
+  padding-bottom: 0.9375rem;
+  /*15px*/ }
+
+.pb-20 {
+  padding-bottom: 1.25rem;
+  /*20px*/ }
+
+.pb-30 {
+  padding-bottom: 1.875rem;
+  /*30px*/ }
+
+.pb-40 {
+  padding-bottom: 2.5rem;
+  /*40px*/ }
+
+.pb-50 {
+  padding-bottom: 3.125rem;
+  /*50px*/ }
+
+/*	выравнивание текста
+/* -------------------------------------------------------------------------------- */
+.text-justify {
+  text-align: justify !important; }
+
+.text-nowrap {
+  white-space: nowrap !important; }
+
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
+
+.text-center {
+  text-align: center; }
+
+/*	Смещения
+/* -------------------------------------------------------------------------------- */
+.float-left {
+  float: left; }
+
+.float-right {
+  float: right; }
+
+.float-none {
+  float: none; }
+
+/*	Очистка потока
+/* -------------------------------------------------------------------------------- */
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: ""; }
+
+/*	Выравнивания
+/* -------------------------------------------------------------------------------- */
+.mx-auto {
+  margin-right: auto !important;
+  margin-left: auto !important; }
+
+/*	Разное
+/* -------------------------------------------------------------------------------- */
+.text-uppercase {
+  text-transform: uppercase; }
+
+.text-normal {
+  text-transform: none; }
+
+.d-block {
+  display: block; }
+
+.d-inline-block {
+  display: inline-block; }
+
+.text-white {
+  color: #ffffff; }
+
+.text-primary {
+  color: #ffc107; }
+
+.text-success {
+  color: #17a2b8; }
+
+.text-danger {
+  color: #dc3545; }
+
+.text-black {
+  color: #000; }
+
+.bg-gray {
+  background: #e9ecef; }
+
+.bg-primary {
+  background: #ffc107; }
+
+.bg-success {
+  background: #17a2b8; }
+
+.bg-danger {
+  background: #dc3545; }
+
+.font-light {
+  font-weight: 300; }
+
+.font-normal {
+  font-weight: 400; }
+
+.font-medium {
+  font-weight: 500; }
+
+.font-large {
+  font-weight: 700; }
+
+.font-bold {
+  font-weight: 900; }
+
+/*# sourceMappingURL=utilite.css.map */

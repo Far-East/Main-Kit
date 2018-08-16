@@ -1,0 +1,16 @@
+
+.simple-figure {
+  margin-bottom: $mp-base;
+  img {
+	margin-bottom: 0.625rem;
+	border-radius: 0.375rem;
+	//box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 5px 15px -8px rgba(0,0,0,.24), 0 8px 10px -5px rgba(0,0,0,.2);
+  }
+}
+@media (max-width: 767.98px) {
+  .simple-figure {
+	max-width: 400px;
+	@include margin-auto;
+  }
+}

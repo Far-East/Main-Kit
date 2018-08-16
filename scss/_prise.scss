@@ -1,0 +1,89 @@
+/*	Прайсы
+/* -------------------------------------------------------------------------------- */
+.prising-table-1 .pricing-area-1 {
+  background: $white;
+  text-align: center;
+  box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  transition: .3s;
+  z-index: 1;
+  margin-bottom: 1.875rem;
+}
+
+.prising-table-1 .pricing-area-1:hover {
+  box-shadow: 0 0 20px #c3c3c3;
+}
+
+.prising-table-1 span {
+  color: $black!important;
+}
+
+.prising-table-1 .title-head {
+  position: relative;
+}
+
+.prising-table-1 .prise-title-1 {
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+.prising-table-1 .prise-title-1 .h2 {
+  text-transform: none;
+  font-size: 1.8rem;
+  font-weight: $font-medium;
+  margin: 0;
+}
+
+.prising-table-1 .price-1 {
+  padding-top: 1.875rem;
+  padding-bottom: 1.25rem;
+  background: $primary;
+}
+
+.prising-table-1 .price-1 .h2 {
+  color: $white;
+  font-size: 2.875rem;
+  transition: .3s;
+  font-weight: 700;
+}
+.prising-table-1 .price-1 .h2 small {
+  font-weight: $font-normal;
+  font-size: 1.4rem;
+}
+.prising-table-1 .price-1 span {
+  color: $white !important;
+  font-weight: $font-light;
+  transition: .5s;
+}
+
+.prising-table-1 .price-body-1 {
+  padding: 2.188rem  0.9375rem;
+}
+
+.prising-table-1 .price-body-1 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.prising-table-1 .price-body-1 ul li {
+  line-height: 1.2;
+  margin-top: 1.25rem;
+}
+
+.prising-table-1 .price-button-1 {
+  padding-bottom: 2rem;
+}
+
+.price-body-1 span.sub-head {
+  font-weight: $font-medium;
+  font-size: 1.2rem;
+  display: block;
+}
+
+@media (max-width: 767.98px) {
+  .pricing-area-1 {
+	max-width: 25rem; /*400px*/
+	margin: 0 auto 1.875rem;
+  }
+}

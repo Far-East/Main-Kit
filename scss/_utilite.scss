@@ -1,0 +1,224 @@
+/*	Вспомогательные классы. Отступы, выравнивание, и прочее.
+/* -------------------------------------------------------------------------------- */
+/*Маржины*/
+.mt-0 {
+  margin-top: 0;
+}
+.mt-10 {
+  margin-top: 0.625rem; /*10px*/
+}
+.mt-15 {
+  margin-top: 0.9375rem; /*15px*/
+}
+.mt-20 {
+  margin-top: 1.25rem; /*20px*/
+}
+.mt-30 {
+  margin-top: $mp-base; /*30px*/
+}
+.mt-40 {
+  margin-top: 2.5rem; /*40px*/
+}
+.mt-50 {
+  margin-top: 3.125rem; /*50px*/
+}
+.mb-0 {
+  margin-bottom: 0;
+}
+.mb-10 {
+  margin-bottom: 0.625rem; /*10px*/
+}
+.mb-15 {
+  margin-bottom: 0.9375rem; /*15px*/
+}
+.mb-20 {
+  margin-bottom: 1.25rem; /*20px*/
+}
+.mb-30 {
+  margin-bottom: $mp-base; /*30px*/
+}
+.mb-40 {
+  margin-bottom: 2.5rem; /*40px*/
+}
+.mb-50 {
+  margin-bottom: 3.125rem; /*50px*/
+}
+/*Паддинги*/
+.pt-0 {
+  padding-top: 0;
+}
+.pt-10 {
+  padding-top: 0.625rem; /*10px*/
+}
+.pt-15 {
+  padding-top: 0.9375rem; /*15px*/
+}
+.pt-20 {
+  padding-top: 1.25rem; /*20px*/
+}
+.pt-30 {
+  padding-top: $mp-base; /*30px*/
+}
+.pt-40 {
+  padding-top: 2.5rem; /*40px*/
+}
+.pt-50 {
+  padding-top: 3.125rem; /*50px*/
+}
+.pb-0 {
+  padding-bottom: 0;
+}
+.pb-10 {
+  padding-bottom: 0.625rem; /*10px*/
+}
+.pb-15 {
+  padding-bottom: 0.9375rem; /*15px*/
+}
+.pb-20 {
+  padding-bottom: 1.25rem; /*20px*/
+}
+.pb-30 {
+  padding-bottom: $mp-base; /*30px*/
+}
+.pb-40 {
+  padding-bottom: 2.5rem; /*40px*/
+}
+.pb-50 {
+  padding-bottom: 3.125rem; /*50px*/
+}
+.pb-60 {
+  padding-bottom: 3.75rem; /*60px*/
+}
+/*	выравнивание текста
+/* -------------------------------------------------------------------------------- */
+.text-justify {
+  text-align: justify !important;
+}
+
+.text-nowrap {
+  white-space: nowrap !important;
+}
+
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+/*	Смещения
+/* -------------------------------------------------------------------------------- */
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.float-none {
+  float: none;
+}
+/*	Очистка потока
+/* -------------------------------------------------------------------------------- */
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+/*	Выравнивания
+/* -------------------------------------------------------------------------------- */
+
+.mx-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+/*	Разное
+/* -------------------------------------------------------------------------------- */
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+.text-normal {
+  text-transform: none !important;
+}
+.d-block {
+  display: block !important;
+}
+.d-inline-block {
+  display: inline-block !important;
+}
+.text-white {
+  color: $white !important;
+}
+.text-primary {
+  color: $primary !important;
+}
+.text-success {
+  color: $success !important;
+}
+.text-danger {
+  color: $danger !important;
+}
+.text-black {
+  color: $black !important;
+}
+.bg-light {
+  background: $light !important;
+}
+.bg-primary {
+  background: $primary !important;
+}
+.bg-success {
+  background: $success !important;
+}
+.bg-danger {
+  background: $danger !important;
+}
+.font-light {
+  font-weight: $font-light !important;
+}
+.font-normal {
+  font-weight: $font-normal !important;
+}
+.font-medium {
+  font-weight: $font-medium !important;
+}
+.font-large {
+  font-weight: $font-large !important;
+}
+.font-bold {
+  font-weight: $font-bold !important;
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+  .list-inline-item {
+    display: inline-block;
+    &:not(:last-child) {
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

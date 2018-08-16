@@ -1,0 +1,57 @@
+
+.btn {
+  display: inline-block;
+  font-weight: $font-large;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: .6rem 2rem;
+  text-transform: uppercase;
+  font-size: $font-base;
+  color: $white;
+  line-height: 1.5;
+  border-radius: 2rem;
+  transition: .5s;
+  cursor: pointer;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.14);
+  box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.2);
+  &:hover,
+  &:focus {
+	text-decoration: none !important;
+	color: $white !important;
+  }
+}
+
+/*	btn-primary
+/* -------------------------------------------------------------------------------- */
+.btn-primary {
+  background-color:$primary;
+  &:hover,
+  &:focus {
+	background: darken($primary, 10%);
+  }
+}
+/*	btn-success
+/* -------------------------------------------------------------------------------- */
+.btn-success {
+  background-color:$success;
+  &:hover,
+  &:focus {
+	background: darken($success, 15%);
+  }
+}
+/*	btn-danger
+/* -------------------------------------------------------------------------------- */
+.btn-danger {
+  background-color:$danger;
+  color: $white;
+  &:hover,
+  &:focus {
+	background: darken($danger, 15%);
+  }
+}
+
+/*	Размеры кнопок
+/* -------------------------------------------------------------------------------- */
+.btn-lg {
+  padding: 1rem 2rem;
+}

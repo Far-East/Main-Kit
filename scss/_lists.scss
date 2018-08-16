@@ -1,0 +1,143 @@
+/*	Стилизованные списки UL
+/* -------------------------------------------------------------------------------- */
+
+/*Для всех стилизованных списков !!!!!!*/
+ul.list-decor {
+  list-style: none;
+  padding-left: 0;
+  li {
+	position: relative;
+	padding-left: 1.3rem;
+	margin: .7rem 0 0;
+	&:before {
+	  position: absolute;
+	  left: 0;
+	}
+  }
+}
+//==================
+/*Стиль 1*/
+ul.list-line {
+  li {
+	&:before {
+	  content: '\2014\a0';
+	}
+  }
+}
+
+/*Стиль 2*/
+
+ul.list-icon-genderless {
+  li {
+	&:before {
+	  font-family: 'fontello';
+	  content: '\f22d';
+	  color: $primary;
+	}
+  }
+}
+
+/*Стиль 3*/
+
+ul.list-icon-check {
+  li {
+	&:before {
+	  font-family: 'fontello';
+	  content: '\e804';
+	  color: $success;
+	}
+  }
+}
+
+/*Стиль 4*/
+
+ul.list-icon-blank {
+  li {
+	&:before {
+	  font-family: 'fontello';
+	  content: '\f0c8';
+	  top: 5px;
+	  color: $danger;
+	  font-size: .6rem;
+	}
+  }
+}
+
+/*Стиль 5*/
+
+ul.list-angle-circled {
+  li {
+	&:before {
+	  font-family: 'fontello';
+	  content: '\f138';
+	  color: $primary;
+	}
+  }
+}
+
+/*Стиль 6*/
+ul.list-icon-circle {
+  li {
+	&:before {
+	  font-family: 'fontello';
+	  content: '\f111';
+	  top: 5px;
+	  color: $primary;
+	  font-size: .6rem;
+	}
+  }
+}
+
+/*	Стили списков OL
+/* -------------------------------------------------------------------------------- */
+
+/*Общие стили списков OL !!!!*/
+ol.decor-ol {
+  counter-reset: li;
+  padding-left: 0;
+  margin-bottom: 0;
+  li {
+	position: relative;
+	margin: 0 0 0 $mp-base;
+	padding: 0.25rem 0.5rem;
+	list-style: none;
+	&:before {
+	  content: counter(li , decimal);
+	  counter-increment: li;
+	  position: absolute;
+	  top: 0.25rem;
+	  left: -1.75rem;
+	  width: 1.75rem;
+	  height: 1.75rem;
+	  padding: 0.3125rem;
+	  font-weight: $font-large;
+	  text-align: center;
+	  font-size: 0.75rem;
+	}
+  }
+}
+
+/*Стили списков OL-1*/
+ol.decor-ol-1 {
+  li {
+	&:before {
+	  color: $white;
+	  background: $success;
+	}
+  }
+}
+
+/*Стили списков OL-2*/
+ol.decor-ol-2 {
+  li {
+	&:before {
+	  color: $primary;
+	  border: 1px solid $primary;
+	}
+  }
+}
+
+
+
+
+
